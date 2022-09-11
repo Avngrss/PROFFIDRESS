@@ -1,0 +1,18 @@
+$brown: #a65e34;
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.container__fluid {
+  max-width: 1920px;
+}
+.container {
+  max-width: 1176px;
+  margin: 0 auto;
+  padding: 15px;
+}

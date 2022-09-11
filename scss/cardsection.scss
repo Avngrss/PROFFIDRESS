@@ -1,0 +1,66 @@
+@import "./main.scss";
+//card section
+.section__card {
+  padding-bottom: 100px;
+}
+.card__block {
+  @include flex();
+  margin-top: 20px;
+}
+.card__item {
+  background: #e9e7e7;
+  padding: 15px;
+  transition: 1s all;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.card__item-title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 29px;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: $brown;
+}
+.card__item-list {
+  padding-left: 0;
+  & li {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    color: #7a7a7a;
+    list-style: none;
+  }
+}
+.card__item-bottom {
+  @include flex();
+}
+.card__item-price {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: $brown;
+}
+.card__item-btn {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  background: $brown;
+  border: none;
+  cursor: pointer;
+  transition: 1s all;
+  &:hover {
+    color: $brown;
+    background: #ffffff;
+  }
+}

@@ -1,0 +1,53 @@
+@import "./main.scss";
+//section__order-form-two
+.container__order-form-two {
+  position: relative;
+  &::before {
+    content: url(../img/18.png);
+    position: absolute;
+    top: -100px;
+    left: 0;
+  }
+  &::after {
+    content: url(../img/aff.png);
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+  }
+}
+.section__order-form-two {
+  background: #eaeaeb;
+  padding-bottom: 50px;
+  & h4 {
+    font-family: "Open Sans";
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 110%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $brown;
+    padding-top: 60px;
+  }
+  & p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #212121;
+  }
+  & input {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.5px;
+    color: #a2a2a2;
+    width: 361px;
+    padding: 21px 0 21px 24px;
+  }
+}
+.form__item-div {
+  text-align: center;
+  margin-top: 33px;
+}

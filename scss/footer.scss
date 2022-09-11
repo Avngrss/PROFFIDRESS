@@ -1,0 +1,19 @@
+//footer
+@import "./main.scss";
+.footer {
+  padding: 100px 0;
+}
+.footer__block-items {
+  @include flex();
+}
+
+.footer__item-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+}
+.footer__item-imgblock {
+  @include flex();
+  gap: 20px;
+}

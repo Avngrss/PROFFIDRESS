@@ -1,0 +1,116 @@
+@import "./main.scss";
+//header
+.header__container {
+  background: #f0f1f6;
+  position: relative;
+  padding-bottom: 208px;
+  &::after {
+    content: url(../img/1.png);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+.header__top {
+  padding-top: 30px;
+  @include flex();
+}
+.header__phone a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0.2px;
+  color: $brown;
+}
+.header__btn {
+  margin-top: 20px;
+}
+.btn {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.46px;
+  color: #f0f1f6;
+  padding: 10px 15px;
+  background: $brown;
+  border: none;
+  &::after {
+    content: url(../img/nounphone.png);
+    vertical-align: middle;
+    padding-left: 3px;
+  }
+}
+
+.header__content {
+  max-width: 648px;
+  position: relative;
+  &::after {
+    content: url(../img/2.png);
+    position: absolute;
+    top: 140px;
+    right: -380px;
+    z-index: 2;
+  }
+}
+.header__title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 51px;
+  letter-spacing: 1.02664px;
+  text-transform: uppercase;
+  color: $brown;
+}
+.catalog__btn {
+  width: 333px;
+  padding: 17px 42px;
+  border: 3.57143px solid $brown;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.410715px;
+  cursor: pointer;
+  color: $brown;
+  transition: 0.8s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.order__btn {
+  width: 310px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.410715px;
+  color: #f0f1f6;
+  padding: 20px 16px;
+  background: $brown;
+  border: none;
+  cursor: pointer;
+  transition: 0.8s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.header__items {
+  @include flex();
+  flex-wrap: wrap;
+  gap: 55px;
+  margin-top: 65px;
+}
+.header__items-item {
+  @include flex();
+  gap: 25px;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.952475px;
+  text-transform: uppercase;
+  color: $brown;
+}

@@ -1,0 +1,50 @@
+@import "./main.scss";
+//section__order-form
+.order__form-container {
+  background: linear-gradient(90.24deg, #f0f1f6 70.32%, rgba(217, 217, 217, 0) 106.67%), url(../img/sec2bg.png);
+  padding-bottom: 120px;
+}
+.section__order-form-title {
+  font-family: "Georgia";
+  font-weight: 700;
+  max-width: 755px;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $brown;
+  padding-top: 80px;
+}
+.section__order-form-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  color: #a2a2a2;
+  padding-bottom: 12px;
+}
+.section__order-form input {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  letter-spacing: 0.5px;
+  color: #a2a2a2;
+  width: 361px;
+  padding: 21px 0 21px 24px;
+}
+.section__order-form-btn {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background: $brown;
+  border: none;
+  padding: 23px 105px;
+  cursor: pointer;
+  transition: 1s all;
+  &:hover {
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,46 @@
+@import "./main.scss";
+// order section
+.order__section {
+  padding-top: 114px;
+  padding-bottom: 200px;
+}
+.order__title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: $brown;
+}
+.order__content {
+  @include flex();
+}
+.order__item p {
+  font-weight: 700;
+  font-size: 26.0061px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.173374px;
+  text-transform: uppercase;
+  color: $brown;
+}
+.order__buttons {
+  display: block;
+  margin: 0 auto;
+  width: 247px;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 27px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  background: $brown;
+  cursor: pointer;
+  &:hover {
+    -webkit-box-shadow: -4px 7px 21px 18px rgba(150, 108, 61, 0.2);
+    -moz-box-shadow: -4px 7px 21px 18px rgba(150, 108, 61, 0.2);
+    box-shadow: -4px 7px 21px 18px rgba(150, 108, 61, 0.2);
+  }
+}

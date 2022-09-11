@@ -1,0 +1,52 @@
+//section factory
+@import "./main.scss";
+.factory__info {
+  @include flex();
+  gap: 44px;
+  padding-top: 100px;
+}
+.factory__info-text {
+  & h4 {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $brown;
+  }
+  & p {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #424242;
+  }
+}
+.factory__info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+.factory__info-list-item {
+  display: flex;
+  gap: 34px;
+}
+.factory__info-cycle {
+  @include flex();
+  margin-top: 146px;
+  padding-bottom: 100px;
+}
+.factory__info-cycle-item:not(:first-child) {
+  text-align: center;
+}
+.item-one,
+.span__item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: $brown;
+}

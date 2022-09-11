@@ -1,0 +1,27 @@
+@import "./fonts";
+@import "./header";
+@import "./ordersection";
+@import "./productsection";
+@import "./cardsection";
+@import "./sectionorderform";
+@import "./sectionfactory";
+@import "./sectionordertwo";
+@import "./slider";
+@import "./partnerssection";
+@import "./footer";
+// pseudo for container next form
+.section__priceform-one-container {
+  position: relative;
+  &::before {
+    content: url(../img/pseudoform/item1.webp);
+    left: 0;
+    bottom: -100px;
+    position: absolute;
+  }
+  &::after {
+    content: url(../img/pseudoform/item2.webp);
+    position: absolute;
+    right: 0;
+    top: -50px;
+  }
+}
