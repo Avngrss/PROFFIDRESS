@@ -144,6 +144,23 @@ body {
   color: #a65e34;
 }
 
+@media (max-width: 425px) {
+  .header__container::after {
+    content: none;
+  }
+  .header__top {
+    flex-direction: column;
+  }
+  .header__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .header__content::after {
+    content: none;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -208,6 +225,12 @@ body {
   box-shadow: -4px 7px 21px 18px rgba(150, 108, 61, 0.2);
 }
 
+@media (max-width: 425px) {
+  .order__content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -366,6 +389,12 @@ body {
   background: #ffffff;
 }
 
+@media (max-width: 425px) {
+  .card__block {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -508,6 +537,18 @@ body {
   color: #a65e34;
 }
 
+@media (max-width: 425px) {
+  .factory__info {
+    flex-direction: column;
+  }
+  .factory__info-cycle {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .item-one {
+    text-align: center;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -577,6 +618,11 @@ body {
   margin-top: 33px;
 }
 
+@media (max-width: 425px) {
+  .container__order-form-two::after, .container__order-form-two::before {
+    content: none;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -735,6 +781,30 @@ body {
   color: #757575;
 }
 
+@media (max-width: 425px) {
+  .partner__section img {
+    width: 80%;
+  }
+  .partner__block-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .partner__block-row-center {
+    justify-content: flex-start;
+  }
+  .power__section h4 {
+    font-size: 30px;
+  }
+  .power__section-img {
+    flex-direction: column;
+  }
+  .power__section-ruslana {
+    flex-direction: column;
+  }
+  .ruslana-comments-subtitle {
+    padding-top: 40px;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -774,6 +844,13 @@ body {
   gap: 20px;
 }
 
+@media (max-width: 425px) {
+  .footer__block-items {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 0;
+  }
+}
 .section__priceform-one-container {
   position: relative;
 }
@@ -788,4 +865,10 @@ body {
   position: absolute;
   right: 0;
   top: -50px;
+}
+
+@media (max-width: 425px) {
+  .section__priceform-one-container::after, .section__priceform-one-container::before {
+    content: none;
+  }
 }

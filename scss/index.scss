@@ -25,3 +25,11 @@
     top: -50px;
   }
 }
+@media (max-width: 425px) {
+  .section__priceform-one-container {
+    &::after,
+    &::before {
+      content: none;
+    }
+  }
+}

@@ -50,3 +50,15 @@
   letter-spacing: 0.2px;
   color: $brown;
 }
+@media (max-width: 425px) {
+  .factory__info {
+    flex-direction: column;
+  }
+  .factory__info-cycle {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .item-one {
+    text-align: center;
+  }
+}

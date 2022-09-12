@@ -6,13 +6,18 @@ owl.owlCarousel({
   startPosition: 0,
   items: 1,
   responsive: {
-    540: {
+    0: {
       items: 1,
-      startPosition: 0,
+      nav: false,
+    },
+    600: {
+      items: 2,
+      nav: false,
     },
     1200: {
       items: 2,
-      margin: 30,
+      nav: true,
+      loop: true,
     },
   },
 });

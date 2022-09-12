@@ -44,3 +44,10 @@
     box-shadow: -4px 7px 21px 18px rgba(150, 108, 61, 0.2);
   }
 }
+
+@media (max-width: 425px) {
+  .order__content {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

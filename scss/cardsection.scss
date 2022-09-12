@@ -64,3 +64,10 @@
     background: #ffffff;
   }
 }
+
+@media (max-width: 425px) {
+  .card__block {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

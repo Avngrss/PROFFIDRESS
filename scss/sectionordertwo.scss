@@ -51,3 +51,11 @@
   text-align: center;
   margin-top: 33px;
 }
+@media (max-width: 425px) {
+  .container__order-form-two {
+    &::after,
+    &::before {
+      content: none;
+    }
+  }
+}
