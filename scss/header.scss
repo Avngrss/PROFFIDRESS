@@ -5,7 +5,7 @@
   position: relative;
   padding-bottom: 208px;
   &::after {
-    content: url(../img/1.png);
+    content: url(../img/1.webp);
     position: absolute;
     bottom: 0;
     right: 0;
@@ -38,7 +38,7 @@
   background: $brown;
   border: none;
   &::after {
-    content: url(../img/nounphone.png);
+    content: url(../img/nounphone.webp);
     vertical-align: middle;
     padding-left: 3px;
   }
@@ -48,7 +48,7 @@
   max-width: 648px;
   position: relative;
   &::after {
-    content: url(../img/2.png);
+    content: url(../img/2.webp);
     position: absolute;
     top: 140px;
     right: -380px;
@@ -72,7 +72,7 @@
   font-size: 22px;
   line-height: 30px;
   text-align: center;
-  letter-spacing: 0.410715px;
+  letter-spacing: 0.4px;
   cursor: pointer;
   color: $brown;
   transition: 0.8s;
@@ -86,7 +86,7 @@
   font-size: 22px;
   line-height: 30px;
   text-align: center;
-  letter-spacing: 0.410715px;
+  letter-spacing: 0.4px;
   color: #f0f1f6;
   padding: 20px 16px;
   background: $brown;
@@ -110,7 +110,7 @@
   font-weight: 700;
   font-size: 15px;
   line-height: 17px;
-  letter-spacing: 0.952475px;
+  letter-spacing: 0.9px;
   text-transform: uppercase;
   color: $brown;
 }

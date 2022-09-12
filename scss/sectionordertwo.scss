@@ -3,13 +3,13 @@
 .container__order-form-two {
   position: relative;
   &::before {
-    content: url(../img/18.png);
+    content: url(../img/18.webp);
     position: absolute;
     top: -100px;
     left: 0;
   }
   &::after {
-    content: url(../img/aff.png);
+    content: url(../img/aff.webp);
     position: absolute;
     bottom: -100px;
     right: 0;

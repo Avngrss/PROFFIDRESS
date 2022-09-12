@@ -20,7 +20,7 @@ body {
   padding-bottom: 208px;
 }
 .header__container::after {
-  content: url(../img/1.png);
+  content: url(../img/1.webp);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -58,35 +58,18 @@ body {
   background: #a65e34;
   border: none;
 }
-
-.btn:hover {
-  -webkit-animation: slide__center 0.8s linear 1s infinite both;
-          animation: slide__center 0.8s linear 1s infinite both;
+.btn::after {
+  content: url(../img/nounphone.webp);
+  vertical-align: middle;
+  padding-left: 3px;
 }
 
-@-webkit-keyframes slide__center {
-  0% {
-    transform: translateZ(0);
-  }
-  100% {
-    transform: translateZ(-40px);
-  }
-}
-
-@keyframes slide__center {
-  0% {
-    transform: translateZ(0);
-  }
-  100% {
-    transform: translateZ(-40px);
-  }
-}
 .header__content {
   max-width: 648px;
   position: relative;
 }
 .header__content::after {
-  content: url(../img/2.png);
+  content: url(../img/2.webp);
   position: absolute;
   top: 140px;
   right: -380px;
@@ -111,7 +94,7 @@ body {
   font-size: 22px;
   line-height: 30px;
   text-align: center;
-  letter-spacing: 0.410715px;
+  letter-spacing: 0.4px;
   cursor: pointer;
   color: #a65e34;
   transition: 0.8s;
@@ -126,7 +109,7 @@ body {
   font-size: 22px;
   line-height: 30px;
   text-align: center;
-  letter-spacing: 0.410715px;
+  letter-spacing: 0.4px;
   color: #f0f1f6;
   padding: 20px 16px;
   background: #a65e34;
@@ -156,7 +139,7 @@ body {
   font-weight: 700;
   font-size: 15px;
   line-height: 17px;
-  letter-spacing: 0.952475px;
+  letter-spacing: 0.9px;
   text-transform: uppercase;
   color: #a65e34;
 }
@@ -241,7 +224,7 @@ body {
 }
 
 .products__container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sbg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sbg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 80px;
@@ -399,7 +382,7 @@ body {
 }
 
 .order__form-container {
-  background: linear-gradient(90.24deg, #f0f1f6 70.32%, rgba(217, 217, 217, 0) 106.67%), url(../img/sec2bg.png);
+  background: linear-gradient(90.24deg, #f0f1f6 70.32%, rgba(217, 217, 217, 0) 106.67%), url(../img/sec2bg.webp);
   padding-bottom: 120px;
 }
 
@@ -544,13 +527,13 @@ body {
   position: relative;
 }
 .container__order-form-two::before {
-  content: url(../img/18.png);
+  content: url(../img/18.webp);
   position: absolute;
   top: -100px;
   left: 0;
 }
 .container__order-form-two::after {
-  content: url(../img/aff.png);
+  content: url(../img/aff.webp);
   position: absolute;
   bottom: -100px;
   right: 0;
