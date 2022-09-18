@@ -15,6 +15,11 @@
   color: $brown;
   padding-top: 80px;
 }
+.elements__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .section__order-form-text {
   font-weight: 600;
   font-size: 18px;
@@ -46,5 +51,24 @@
   transition: 1s all;
   &:hover {
     transform: scale(1.2);
+  }
+}
+
+@media (max-width: 425px) {
+  .section__order-form-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .elements__form input {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .section__order-form-btn {
+    padding: 13px 15px;
+    margin: 0 auto;
+    display: block;
   }
 }

@@ -25,6 +25,7 @@
 }
 .header__btn {
   margin-top: 20px;
+  animation: animate_btn 5s 0s both infinite;
 }
 .btn {
   cursor: pointer;
@@ -44,13 +45,34 @@
   }
 }
 
+@keyframes animate_btn {
+  0%,
+  20% {
+    transform: translate3d(0, 0, 0);
+  }
+  10%,
+  14%,
+  18%,
+  2%,
+  6% {
+    transform: translate3d(-7px, 0, 0);
+  }
+  12%,
+  16%,
+  4%,
+  8% {
+    transform: translate3d(7px, 0, 0);
+  }
+}
+
 .header__content {
   max-width: 648px;
+  min-height: 100vh;
   position: relative;
   &::after {
     content: url(../img/2.webp);
     position: absolute;
-    top: 140px;
+    top: 310px;
     right: -380px;
     z-index: 2;
   }
@@ -115,6 +137,12 @@
   color: $brown;
 }
 @media (max-width: 425px) {
+  .header__title {
+    font-size: 30px;
+  }
+  .catalog__btn {
+    width: auto;
+  }
   .header__container {
     &::after {
       content: none;

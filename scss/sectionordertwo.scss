@@ -58,4 +58,19 @@
       content: none;
     }
   }
+  .form__item-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section__order-form-two h4 {
+    font-size: 30px;
+  }
+  .section__order-form-two input {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+  }
 }
