@@ -6,13 +6,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .header__container {
@@ -201,13 +201,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .order__section {
@@ -272,13 +272,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .products__container {
@@ -340,13 +340,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .section__card {
@@ -438,13 +438,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .order__form-container {
@@ -531,13 +531,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .factory__info {
@@ -618,13 +618,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container__order-form-two {
@@ -708,13 +708,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .slider {
@@ -754,13 +754,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .partner__section h4 {
@@ -899,13 +899,13 @@ body {
 
 .container__fluid {
   max-width: 1920px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .container {
   max-width: 1176px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .footer {
