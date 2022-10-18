@@ -1,5 +1,5 @@
 
-## Createx  : https://github.com/Avngrss/PROFFIDRESS Pages
+## Createx  : https://avngrss.github.io/PROFFIDRESS/ Pages
 - Использование SCSS
 - Есть мобильная адаптация
 - Использование слайдеров из библиотеки JQuery
